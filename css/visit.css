@@ -1,0 +1,220 @@
+@import url(./reset.css);
+@import url(./global.css);
+@import url(/fonts/fonts.css);
+
+
+body {
+    max-width: 1900px;
+    height: 900px;
+    background: var(--mainColor);
+}
+
+img {
+    width: 100%;
+}
+
+.flex {
+    display: flex;
+}
+
+
+
+header {
+    max-width: 1900px;
+    height: 100%;
+
+}
+
+.logo h1 {
+
+    padding: 15px;
+}
+
+.logo img {
+    width: 60%;
+    margin-left: 25%;
+    margin-top: 120px;
+    align-items: center;
+}
+
+.logo {
+    position: absolute;
+    left: 47%;
+    top: 2%;
+    transform: translateX(-50%);
+}
+
+nav {
+    width: 100%;
+    background: var(--mainColor);
+    align-items: center;
+    font-size: 35px;
+    background-attachment: fixed;
+    position: fixed;
+    border-bottom: 1px solid #000;
+    z-index: 99;
+}
+
+nav li:hover a {
+    color: var(--pointColor);
+}
+
+nav li a.on {
+    color: var(--pointColor);
+}
+
+.summary li:hover .place {
+    color: var(--white);
+}
+
+.part1 li a,
+.part2 li a {
+    padding: 20px;
+}
+
+nav ul.flex {
+    justify-content: space-between;
+}
+
+.about {
+    right: 300px;
+    top: 150px;
+    position: absolute;
+}
+
+.about img {
+    width: 50%;
+}
+
+.about :nth-child(1) img {
+    animation: dance_jump 3s ease-out infinite;
+    transform-origin: center bottom;
+}
+
+ul.info {
+    width: 100%;
+    flex-wrap: wrap;
+    background: #eee;
+
+}
+
+.info li {
+    width: 50%;
+    font-size: 15px;
+}
+
+.map {
+    width: 100%;
+    height: 30vw;
+}
+
+.tabs {
+    position: relative;
+    left: 15%;
+    top: -430px;
+}
+
+.map-menu li {
+    text-align: center;
+    background: #cdcdcf;
+    border-bottom: 1px solid #ffffff;
+    font-size: 23px;
+}
+
+.map-menu li a {
+    display: block;
+    padding: 18px;
+}
+
+.map-menu li a.on {
+    background: var(--pointColor);
+    color: var(--white);
+}
+
+
+
+li.map-img.on {
+    opacity: 1;
+}
+
+
+li.map-img {
+    opacity: 0;
+    font-size: 18px;
+    font-weight: 400;
+
+}
+
+
+
+ul.map-container {
+    position: absolute;
+}
+
+
+.map-container {
+    position: absolute;
+    left: 40%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.map-img {
+    position: absolute;
+}
+
+
+.map-img li {
+    padding: 30px;
+}
+
+.exhibitions {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+   
+}
+
+.content {
+    width: 70%;
+    height: 60vw;
+    position: absolute;
+    left: 50%;
+    top: 20%;
+    transform: translateX(-50%);
+    gap: 200px;
+}
+
+.ad{width: 40%;}
+
+.ad li {
+    padding: 25px;
+    text-align: center;
+}
+
+.ad ul {
+    margin-top: 350px;
+}
+
+.ad li p {
+    text-align: center;
+    position: relative;
+    font-size: 35px;
+
+}
+
+
+.ad a {
+    background: var(--pointColor);
+    padding: 20px;
+    border-radius: 99px;
+}
+
+figure{text-align: center;
+
+}
+
+figcaption{
+    margin-top: 50px;
+}
+

@@ -1,0 +1,21 @@
+
+:root{
+    --headerEng-font:"Pretendard-Regular";
+    --headerKor-font:"Pretendard-Light";
+    --bold-font:"Pretendard-Bold";
+     
+
+    --mainColor:#fff;
+    --subColor:#000;
+    --pointColor:#ff4429;
+
+    --white:#fff;
+    --black:#000;
+    --black100:#333;
+    --orange:#ff4429;
+
+    
+     font-family:var(--Pretendard-Light) ;
+     body{color: var(--subColor);} 
+    
+}
