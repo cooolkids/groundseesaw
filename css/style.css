@@ -301,7 +301,7 @@ ul.menu li a.on::before {
     height: 13px;
     background: url(/images/arrowR.png) no-repeat center/cover;
     margin: 0 15px 0 0;
-   transition: .4s;
+    transition: .4s;
 }
 
 /* -------footer----------- */
